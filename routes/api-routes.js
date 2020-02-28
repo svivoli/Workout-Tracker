@@ -25,5 +25,15 @@ module.exports = function (app) {
                 res.json(err);
             });
     });
+
+    app.get('/api/workouts', (req, res) => {
+        Workout.find()
+        .then(dbWorkouts => {
+            res.json(dbWorkouts);
+        })
+        .catch(err => {
+            res.json(err);
+        });
+    });
 };
 
