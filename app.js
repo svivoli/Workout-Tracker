@@ -30,3 +30,6 @@ app.get("/stats", (req, res) => {
     res.sendFile(path.join(__dirname + '/public/stats.html'));
 });
 
+app.listen(8080, () => {
+    console.log("App running on port 8080");
+});
