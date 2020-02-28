@@ -8,17 +8,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Fitness Tracker</title>
   </head>
   <body>
-    <nav>
-      <a href="/">Fitness Tracker</a>
-      <a href="/stats">Dashboard</a>
+    <nav class="navbar">
+      <a href="/">Fitness Tracker <i class="fas fa-dumbbell"></i></a>
+      <a href="/stats">Dashboard <i class="fas fa-tachometer-alt"></i></a>
     </nav>
     <div class="wrapper workout">
       <header>
-        <h1>Fitness Tracker</h1>
+        <h1>Fitness Tracker <i class="fas fa-dumbbell"></i></h1>
       </header>
       <div class="ui container workout">
             <div class="ui raised card m-auto">
@@ -27,8 +30,8 @@
                   <div>
                     <div class="workout-stats"></div>
                     <div class="buttons">
-                      <a href="/exercise?" class="huge ui blue button">Continue Workout</a>
-                      <a href="/exercise" class="huge positive ui button">New Workout</a>
+                      <a href="/exercise?" class="btn huge ui button">Continue Workout</a>
+                      <a href="/exercise" class="btn huge ui button">New Workout</a>
                     </div>
                   </div>
                 </div>
