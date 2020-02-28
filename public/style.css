@@ -441,6 +441,9 @@ form > button {
 }
 
 /* added styles */
+h1, h3 {
+  font-family: 'Oswald' !important;
+}
 .navbar {
   background: rgb(253, 1, 1);
 }
@@ -448,5 +451,6 @@ form > button {
   background: url('./img/5-dots.png') !important;
   border: solid 4px grey;
   color: white !important;
+  font-family: 'Oswald' !important;
   width: 50%;
 }
