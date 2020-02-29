@@ -9,6 +9,7 @@
 html,
 body,
 .wrapper {
+  background: white !important;
   height: 100%;
 }
 
@@ -17,20 +18,20 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: rgb(253, 1, 1);;
   color: #ffffff;
   height: 80px;
   padding: 10px;
-  line-height: 3;
-  font-size: 1.2rem;
+  /* line-height: 3; */
+  font-size: 17px;
 }
 
 a,
 a:hover,
 a:active,
 a:visited {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none !important;
+  color: white !important;
 }
 
 header {
@@ -399,28 +400,19 @@ form > button {
 }
 
 .buttons .ui.button {
-  margin: 0;
+  margin: 2px;
   width: 50%;
+  background: url('./img/5-dots.png') !important;
+  font-family: 'Oswald';
+  color: white !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .ui.card h2 {
   padding: 10px;
-}
-
-.buttons .ui.button:first-child {
-  margin: 2px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.buttons .ui.button:nth-child(2) {
-  margin: 2px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 .workout-type,
@@ -441,16 +433,20 @@ form > button {
 }
 
 /* added styles */
-h1, h3 {
+h1, h2, h3 {
   font-family: 'Oswald' !important;
 }
-.navbar {
-  background: rgb(253, 1, 1);
+
+.index-btn {
+  padding-top: 22px !important;
 }
-.btn {
-  background: url('./img/5-dots.png') !important;
-  border: solid 4px grey;
-  color: white !important;
-  font-family: 'Oswald' !important;
-  width: 50%;
+
+.image {
+  margin-top: 5px;
+  margin-bottom: -15px;
+}
+
+.image1 {
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
