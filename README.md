@@ -1,5 +1,10 @@
 # Workout-Tracker
 
+## Links to Project
+
+[Live Site](https://w0rkout-tracker.herokuapp.com/)  
+[GitHub Repository](https://github.com/svivoli/Workout-Tracker)
+
 ## Description
 
 A workout tracker that allows users to log their workouts and view detailed statistics related to exercises performed. A useful tool for visualising fitness goals and progress.
@@ -17,7 +22,7 @@ A workout tracker that allows users to log their workouts and view detailed stat
 - Continue Workout button - add to workout*
 - New Workout button - add a workout*
 2. Add Your Exercise Page*
-- User selects type, which then displays more forms: name, weight, sets, reps, duration
+- User selects type, which then displays more forms: name, weight, sets, reps, duration for resistance, and name, distance, and duration for cardio
 - Forms
 - Disabled buttons (activated when forms are filled) - Complete, Add Excercise
 3. Dashboard
@@ -42,3 +47,5 @@ A workout tracker that allows users to log their workouts and view detailed stat
 ## Developer Experience
 
 Given front end code (although I manipulated and added to the styling a bit) and asked to create backend. This involved running node seed to establish the mongo database as well as creating app.js, html-routes.js, and api-routes.js. 
+
+--Sarah Vivoli
