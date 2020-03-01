@@ -22,7 +22,7 @@ nav {
   color: #ffffff;
   height: 80px;
   padding: 10px;
-  line-height: 3;
+  line-height: 3.5;
   font-size: 17px;
 }
 
@@ -402,6 +402,7 @@ form > button {
 .buttons .ui.button {
   margin: 2px;
   width: 50%;
+  padding: 22px;
   background: url('./img/5-dots.png') !important;
   font-family: 'Oswald';
   color: white !important;
@@ -432,23 +433,13 @@ form > button {
   }
 }
 
-/* added styles */
 h1, h2, h3 {
   font-family: 'Oswald' !important;
-}
-
-.index-btn {
-  padding-top: 22px !important;
 }
 
 .image {
   margin-top: 15px;
   text-align: center;
-}
-
-.image1 {
-  margin-top: 5px;
-  margin-bottom: 15px;
 }
 
 .exercise, .mt {
