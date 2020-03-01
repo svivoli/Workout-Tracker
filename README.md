@@ -31,6 +31,13 @@ A workout tracker that allows users to log their workouts and view detailed stat
 
 ## User Experience
 
+![Index](https://i.imgur.com/uRdmyUi.png)
+
+![Exercise](https://i.imgur.com/193qnSV.png)
+
+![Exercise Add](https://i.imgur.com/BkF86gT.png)
+
+![Stats](https://i.imgur.com/Ja71ffz.png)
 
 ## Developer Experience
 
