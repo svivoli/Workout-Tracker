@@ -437,6 +437,15 @@ h1, h2, h3 {
   font-family: 'Oswald' !important;
 }
 
+#nav-link {
+  font-size: 17px !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav-link:last-of-type {
+  padding-left: 1.5px;
+}
+
 .image {
   margin-top: 15px;
   text-align: center;
