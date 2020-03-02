@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(express.static('public'));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://heroku_t14q4gt8:" + process.env.MONGODB_PASSWORD + "@ds161335.mlab.com:61335/heroku_t14q4gt8", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://heroku_t14q4gt8:" + process.env.MONGODB_PASSWORD + "@ds161335.mlab.com:61335/heroku_t14q4gt8", { useMongoClient: true });
 
 require('./routes/html-routes.js')(app);
 require('./routes/api-routes.js')(app);
