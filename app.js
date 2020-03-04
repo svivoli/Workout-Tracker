@@ -13,7 +13,14 @@ app.use(express.json());
 
 app.use(express.static('public'));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://heroku_t14q4gt8:" + process.env.MONGODB_PASSWORD + "@ds161335.mlab.com:61335/heroku_t14q4gt8", { useMongoClient: true });
+mongoose.connect(process.env.MONGODB_URI || 
+    "mongodb://svivoli:" + process.env.MONGODB_PASS + "@ds161335.mlab.com:61335/heroku_t14q4gt8", { useMongoClient: true }, function(err) {
+    if (err) {
+        console.log("Error connecting to Mongoose: " + err)
+    } else {
+        console.log("The Mongoose connection is ready.")
+    };
+});
 
 require('./routes/html-routes.js')(app);
 require('./routes/api-routes.js')(app);
