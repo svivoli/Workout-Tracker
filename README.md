@@ -30,9 +30,10 @@ A workout tracker that allows users to log their workouts and view detailed stat
 - Graph of Pounds Lifted by day
 - Pie chart of Exercises Performed
 - Doughnut chart of Exercises Performed 
-4. Navbar with links and cartoon image
+4. Navbar with links and Fontawesome icons
 5. Semantic UI
 6. Google Fonts
+7. Cartoon image of weightlifter
 
 ## User Experience
 
@@ -46,6 +47,6 @@ A workout tracker that allows users to log their workouts and view detailed stat
 
 ## Developer Experience
 
-Given front end code (although I manipulated and added to the styling a bit) and asked to create backend. This involved running node seed to establish the mongo database as well as creating app.js, html-routes.js, and api-routes.js. 
+Given front end code (although I manipulated and added to the styling a bit) and asked to create backend. This involved running npm run seed to establish the mongo database as well as creating app.js, html-routes.js, and api-routes.js. 
 
 --Sarah Vivoli
